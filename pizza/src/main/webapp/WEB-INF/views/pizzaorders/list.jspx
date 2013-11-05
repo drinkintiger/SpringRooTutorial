@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tsoy_pizzaroo_domain_PizzaOrder" items="${pizzaorders}" z="fEijB0a8n4RfzLJO0IOuNHzZ3QI=">
+        <table:table data="${pizzaorders}" id="l_com_tsoy_pizzaroo_domain_PizzaOrder" path="/pizzaorders" z="DqtrkHJn150K1Jwj0Dua0l9Trrs=">
+            <table:column id="c_com_tsoy_pizzaroo_domain_PizzaOrder_name" property="name" z="RtHR1nN+RrZ4ZWg/RHRsS6gYTco="/>
+            <table:column id="c_com_tsoy_pizzaroo_domain_PizzaOrder_address" property="address" z="ZPaT4XWCm6TcmeC407Bq1hFbXxg="/>
+            <table:column id="c_com_tsoy_pizzaroo_domain_PizzaOrder_total" property="total" z="XawGbcNJoFQLK3CN+Kf5zD7h1cQ="/>
+            <table:column date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" id="c_com_tsoy_pizzaroo_domain_PizzaOrder_deliveryDate" property="deliveryDate" z="R1cBUyoy6jYH9gWQDYbR/1HOvj4="/>
+            <table:column id="c_com_tsoy_pizzaroo_domain_PizzaOrder_pizzas" property="pizzas" z="9Kg7sdSg4tMoOAZkoLIY3t3VvGc="/>
+        </table:table>
+    </page:list>
+</div>

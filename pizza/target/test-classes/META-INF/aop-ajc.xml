@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaOrderIntegrationTest_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.BaseIntegrationTest_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.ToppingIntegrationTest_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.ToppingDataOnDemand_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.BaseDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.tsoy.pizzaroo.domain.ToppingDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.tsoy.pizzaroo.domain.BaseIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaOrderIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaOrderDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.tsoy.pizzaroo.domain.BaseDataOnDemand_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaOrderDataOnDemand_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.tsoy.pizzaroo.domain.ToppingIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.tsoy.pizzaroo.domain.PizzaDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+
